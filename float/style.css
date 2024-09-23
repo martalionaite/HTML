@@ -1,0 +1,74 @@
+
+/* 
+Box - sizing turi buti butinai idetas norin kurti blokus ir nesulauzytu bloku jis yra butinas.
+
+Paveikslelis turi paimti 100% elementui tevimui. 
+*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Lyout */
+
+/* Header */
+
+header {
+    height: 120px;
+    background-color: aqua;
+    line-height: 120px;
+}
+
+header h1 {
+    color: white;
+    text-transform: uppercase;
+}
+
+/* Main navigation */
+
+nav {
+    background-color: aquamarine;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+}
+
+/* Main content */
+
+main {
+    background-color: blanchedalmond;
+    min-height: 500px;
+
+}
+
+main .content {
+    width: 60%;
+    float: left;
+    padding: 20px;
+}
+
+main article {
+    background-color: blueviolet;
+    display: inline-block;
+    padding: 10px;
+}
+
+/* Aside  */
+
+aside {
+    background-color: rgb(65, 34, 34);
+    width: 40%;
+    float: right;
+}

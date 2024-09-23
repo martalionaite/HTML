@@ -1,30 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
 section {
-    display: block;
-}
-
-section div {
-    margin: auto
-}
-
-div {
-    width: 200px;
-    height: 200px;
+    width: 80%;
+    background-color: #eee;
+    margin: 80px auto;
+    height: 800px;
+    position: relative;
 }
 
 div:nth-child(1) {
     background-color: aqua;
+    right: 0;
+    bottom: 0;
 }
 
 div:nth-child(2) {
     background-color: grey;
+    left: 0;
+    bottom: 0;
 }
 
 div:nth-child(3) {
     background-color: yellow;
+    right: 0;
+    top: 0;
 }
 
 div:nth-child(4) {
     background-color: green;
+    right: 35%;
+    bottom: 40%;
 }
 
 div:nth-child(5) {
