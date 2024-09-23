@@ -1,0 +1,20 @@
+/* Visada kuriant konteineri kuris yra <div class="container">. Konteineris yra atskiriems blokams web susidelioja pusapi. 
+(Turi buti klasiskai surasyti sie parametrai: width: 80%; background-color: pink; margin: 0 auto; )*/
+
+
+/* 
+normalize.css – tai mažas CSS failas, sukurtas tam, kad padėtų visose naršyklėse vienodai atvaizduoti pagrindinius HTML elementus. 
+Skirtingos naršyklės turi numatytuosius stilius, kurie dažnai skiriasi, o tai gali sukelti problemų kuriant svetainės dizainą.
+
+Pagrindiniai normalize.css tikslai:
+- Suderinamumas tarp naršyklių: Suvienodina HTML elementų išvaizdą įvairiose naršyklėse, išsprendžiant numatytuosius skirtumus.
+- Saugumas nuo klaidų: Padeda išvengti dažniausiai pasitaikančių problemų, kylančių dėl numatytų naršyklių stilių.
+- Paprastumas: „normalize.css“ nenaikina visų numatytų naršyklės stilių (kaip, pavyzdžiui, CSS reset), o tik pritaiko reikalingus pataisymus, todėl stilistiką galima labiau kontroliuoti.
+Jis naudojamas dažnai kuriant svetainių projektus, kad būtų užtikrinta kuo stabilesnė ir nuoseklesnė vartotojo patirtis visose naršyklėse. */
+
+
+.container {
+    width: 80%;
+    background-color: pink;
+    margin: 0 auto;
+}

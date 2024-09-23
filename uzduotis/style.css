@@ -1,0 +1,56 @@
+
+header {
+    padding: 20px 50px;
+    font-family: "Indie Flower", cursive, serif;
+    background-color: #5f96f5;
+    color: white;
+}
+
+
+.colum1 {
+    background-color: green;
+    margin: 100px 100px;
+
+}
+
+.text1 {
+    padding: 30px;
+    font-family: "Jacques Francois Shadow", serif;
+}
+
+.text2 {
+    font-family: "Jacques Francois Shadow", serif;
+    text-align: right;
+    padding-bottom: 80px;
+    padding-right: 20px;
+}
+
+
+
+.button {
+background-color: red;
+color: white;
+margin: 70px 70px;
+text-align: center;
+padding: 20px 20px;
+border-radius: 20px;
+text-align: center;
+width: max-content;
+margin: 20px auto;
+}
+
+.button a {
+    color: white;
+    font-size: 2em;
+}
+
+.colum {
+    background-color: #293852;
+    color: white;
+    padding: 20px 20px;
+}
+
+.colum h5 {
+    font-size: 1em;
+    font-family: "Anton", sans-serif;
+}

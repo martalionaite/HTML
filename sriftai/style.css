@@ -1,0 +1,50 @@
+
+
+
+
+
+section {
+    background: grey url("./img/1000_F_141121004_IpVWZBqHwvqIrMhJcohvDCM0D7S1NqkW.jpg");
+
+}
+
+section article {
+    color: #000000;
+    font-size: 1.2em;
+    font-family: "Dancing Script", cursive;
+    font-family: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: justify;
+    background-color: rgba(221, 255, 153, 0.5);
+}
+
+
+
+.super {
+    color: #aa22bb11;
+    text-decoration: underline;
+}
+
+section :nth-child(2) {
+    color: beige;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: blanchedalmond;
+}
+
+.links li a:hover {
+    color: pink;
+    font-size: 2em;
+}
+
+.links ul :nth-child(2n+2) {
+    background-color: green;
+}
