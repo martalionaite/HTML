@@ -10,11 +10,50 @@ Pagrindiniai normalize.css tikslai:
 - Suderinamumas tarp naršyklių: Suvienodina HTML elementų išvaizdą įvairiose naršyklėse, išsprendžiant numatytuosius skirtumus.
 - Saugumas nuo klaidų: Padeda išvengti dažniausiai pasitaikančių problemų, kylančių dėl numatytų naršyklių stilių.
 - Paprastumas: „normalize.css“ nenaikina visų numatytų naršyklės stilių (kaip, pavyzdžiui, CSS reset), o tik pritaiko reikalingus pataisymus, todėl stilistiką galima labiau kontroliuoti.
-Jis naudojamas dažnai kuriant svetainių projektus, kad būtų užtikrinta kuo stabilesnė ir nuoseklesnė vartotojo patirtis visose naršyklėse. */
+Jis naudojamas dažnai kuriant svetainių projektus, kad būtų užtikrinta kuo stabilesnė ir nuoseklesnė vartotojo patirtis visose naršyklėse. 
+
+Displayl: none; --
+
+*/
+
 
 
 .container {
     width: 80%;
     background-color: pink;
     margin: 0 auto;
+}
+
+/*Navigation*/
+
+nav {
+    background-color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    background-color: black;
+    padding: 5px;
+}
+
+nav ul {
+    
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul li:nth-child(2n) {
+    background-color: aqua;
+}
+
+nav ul li:hover {
+    background-color: pink;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
 }

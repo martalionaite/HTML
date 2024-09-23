@@ -1,0 +1,39 @@
+
+/* 
+- Pamirsai prideti container jis yra labai svarbus. <div class="container" - butinas! 
+- 
+
+
+*/
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer section h4 {
+    margin-bottom: 0px;
+}
+
+footer section {
+    flex: 1;
+    padding: 20px;
+}
