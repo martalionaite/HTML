@@ -3,7 +3,7 @@
 prie kurio nori prikabinti reikia nurodyti "position: relative" 
 o kuriuos elementus judinti nori turi nurodyti "position: absolute;" 
 
-Pagrindas ant kazko noriu kazka p[adati yra realitivi pozicija 
+Pagrindas ant kazko noriu kazka padati yra realitivi pozicija 
 o ta ka noriu uzdeti yra absoliuti pozicija.
 
 Jeigu nori pakeisti pozi
@@ -17,13 +17,76 @@ Jeigu nori pakeisti pozi
     position: relative
 }
 
+.card {
+    background-color: white;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    height: 280px;
+    width: 450px;
+    text-align: center;
+}
 
+h1 {
+    color: red;
+    text-decoration: underline;
+    font-family: "Allura", cursive;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+p {
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+
+.kologram {
+    color: red;
+}
+
+button {
+    background-color: red;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    border: none;   
+}
+
+.wheels{
+    background-color: pink;
+    
+}
+
+.wheels img{
+    border-radius: 100px;
+    position: absolute;
+}
+
+.wheels img:nth-child(1)
+{
+    top: 50%;
+    left: 16%;
+}
+
+.wheels img:nth-child(2)
+{
+    top: 15%;
+    right: 40%;
+}
+
+.wheels img:nth-child(3)
+{
+    height: 50px;
+    width: 50px;
+    top: 17%;
+    right: 70%;
+}
 .container {
-    background-color: #0ff9;
     text-align: center;
     position: absolute;
     bottom: 0;
-    left: 40%
+    left: 40%;
+    text-align: center;
 
 }
 
