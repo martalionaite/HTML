@@ -1,0 +1,19 @@
+
+
+.blue-border {
+    background-color: rgb(84, 84, 190);
+    border: 2px solid blue;
+    border-radius: 5px;
+}
+
+.purple-border {
+    background-color: rgb(195, 111, 195);
+    border: 2px solid purple;
+    border-radius: 5px;
+}
+
+.pink-border {
+    background-color: pink;
+    border: 2px solid rgb(160, 44, 63);
+    border-radius: 5px;
+}
