@@ -1,0 +1,5 @@
+@mixin card($radius, $background, $textAligment) {
+  border-radius: $radius;
+  background-color: $background;
+  text-align: $textAligment;
+}

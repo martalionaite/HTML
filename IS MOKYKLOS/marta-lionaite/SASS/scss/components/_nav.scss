@@ -1,0 +1,23 @@
+nav {
+  background-color: $navBg;
+  padding: 5px;
+  ul {
+    display: flex;
+    li {
+      list-style: none;
+      flex-grow: 1;
+      margin: 5px;
+      a {
+        color: white;
+        text-decoration: none;
+        display: block;
+        padding: 10px;
+        background-color: $agb;
+        @extend .button;
+        &:hover {
+          color: rgb(232, 10, 232);
+        }
+      }
+    }
+  }
+}
